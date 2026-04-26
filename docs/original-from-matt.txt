@@ -1,0 +1,156 @@
+PRODUCT NAME? Creator Content Supply Chain Platform | Idea Pitch | April 2026 | Prepared for: Murilo Silva
+
+THE PROBLEM
+Creators didn’t get into this to manage files. 
+They got into it to tell stories.
+The average creator’s week: record, export, upload to a transcription tool, copy the transcript into a doc, edit video in one app, cut clips in another, write show notes manually, format a newsletter by hand, upload to YouTube, upload to Spotify, schedule social posts in a third tool, and hope nothing breaks between steps.
+47 tools touched before a single piece of content publishes. 23 hours per week lost to workflow management instead of storytelling. Research on knowledge workers shows that switching between more than five active applications simultaneously causes a 30–40% productivity reduction. For a five-person content team, that equals two full-time employees doing nothing but moving files.
+The market has no affordable, integrated answer. Broadcast tools like Saga, Wolftech, and Cuez solve this problem for newsrooms with enterprise budgets and IT departments. A solo podcaster or five-person video team cannot buy into any of those systems. The gap is real. The architecture is proven. The market is unserved.
+
+THE SOLUTION
+One idea. Every platform. Automatically.
+The platform is built around a single principle: you create the story once. Everything else is automatic. Research notes, raw footage, transcript, and talking points live in one place. That entry point is called a Story Block, the source of truth for everything downstream.
+
+From one story, the platform automatically produces: a full-length YouTube video with chapters and SEO metadata, a podcast episode published to Spotify, Apple Podcasts, and RSS, three short-form clips formatted for TikTok, Reels, and Shorts, a blog post and newsletter draft, social captions for LinkedIn, X, and Threads, a rights-protected monetizable asset entry in the IP ledger, a FAST channel asset, an IMF package for premium SVOD delivery, and a live stream archive and replay.
+One recording session. Nine outputs. Zero manual reformatting.
+
+HOW IT WORKS: YOU SUBSCRIBE. WE HANDLE EVERYTHING.
+This is not a tool you install. Not infrastructure you manage. Not a contract requiring an IT department. You subscribe. We run it.
+
+The platform lives entirely on infrastructure we own and operate. AWS under the hood. Microservices architecture throughout. Every component, storage, transcoding, distribution, rights ledger, billing engine, runs as an independent service. That means we update, improve, and fix any part of the platform without taking it offline. No maintenance windows. No downtime. Your workflow never stops.
+
+What we handle: AWS infrastructure, security, and scaling. Software updates and new features. Storage, transcoding, and CDN delivery. Rights tracking and billing logic. Uptime, redundancy, and failover. SCTE-35, IMF, and loudness compliance.
+What you do: subscribe and create. See improvements automatically. Upload your content. Get paid. Keep making content. Never think about the technical layer.
+Each module runs as an independent service. We ship a new feature to the Clips module tonight, the rest of the workflow doesn’t notice. A CDN provider goes down, multi-CDN failover reroutes in under 500ms. The infrastructure scales automatically when a video goes viral. Zero-downtime deployment is not a technical nicety. It is the product promise.
+
+WHAT THE BROADCAST LEADERS GOT RIGHT
+Before building, study what already works.
+Saga (SagaNews) treats the story as a planning unit first. Journalists pitch stories into a shared workspace. Everyone works on the same record in real time. The story holds everything, research, scripts, video, assets, social versions. One source. No confusion.
+
+Wolftech (acquired by Avid, November 2024) adds operational control. Every story has a cost attached. Resource booking, equipment scheduling, and production planning live inside the story record. You know what each piece of content costs to produce before it publishes.
+
+Cuez (NAB 2026) introduced the most creator-relevant innovation: modular content blocks. Every story breaks into reusable blocks, text, graphics, titles, media. Those blocks adapt to TV, web, and social without copy-paste between tools. AI handles headline generation and platform formatting.
+
+The gap: all three are built for broadcasters with broadcaster budgets. This platform takes the same architecture, strips the enterprise scaffolding, adds creator monetization, and prices it at the SaaS tier where creators actually live.
+
+THE STORY BLOCK MODEL
+Every piece of content breaks into five blocks. Created once. Adapted automatically per destination.
+Hook block, opening 15 seconds, pull quote, thesis. Body block,  core content, argument, or interview segment. Clip block standalone moment that works without context. Asset block thumbnail, graphic, b-roll reference. Distribution block,  platform-specific caption, hashtags, CTA.
+TikTok gets: hook, clip, and distribution. YouTube gets all five. Newsletter gets hook, body, and asset. The creator never rewrites the same idea twice.
+
+LIVE STREAMING: ONE STREAM, EVERY PLATFORM
+You go live once. The platform pushes your stream to every destination simultaneously. No separate encoder settings per platform. One button. Every platform fires at the same time.
+
+Platforms supported: YouTube Live (auto-archives to VOD immediately), TikTok Live (vertical crop handled automatically), Instagram Live (4-hour limit, platform enforced), Facebook Live (pages and personal profiles), X (Twitter) Live (Amplify Publisher API), LinkedIn Live (brand page and personal feed), Twitch (gaming and creator communities), Kick (fastest-growing Twitch alternative), Rumble (independent creator audience), Custom RTMP (any platform accepting a stream key).
+Browser-based studio: no download required. Up to 8 simultaneous guests via WebRTC browser links. Multi-camera switching with 20ms response time. Real-time lower thirds and graphics. Screen share. Audio mixing per guest. Guests can be anywhere in the world.
+After every live stream, automatically: full recording saved to Archive in original quality, transcript generated within minutes, Story Block created with transcript and metadata, three strongest moments identified and cut as short-form clips, YouTube VOD chapters added from transcript, audio strip published as podcast episode to RSS feed. One live session. Nine outputs. All waiting for your approval.
+
+MODULE STRUCTURE
+Nobody buys a feature list. They buy a solution to a specific problem. The platform sells modules. Stack what you need.
+Story module, core workspace, write and plan in blocks, Free or $15 per month. Distribute module, publish to 9 platforms simultaneously, $25 per month. Clips module, auto-generate short-form vertical clips from long-form,  $20 per month. Archive module, cloud storage plus zero-download editing access, $10 per month plus storage cost. Live module, multistream plus browser studio plus SRT ingest, $35 per month. Rights module,  IP ledger tracking every license, territory, and payment, $30 per month. Monetize module FAST channel plus sub-licensing plus usage billing, $40 per month.
+CREATOR BUNDLES
+Solo Podcaster: Story, Distribute, Archive $40 per month, record and publish everywhere. YouTube Creator: Story, Distribute, Clips, Archive, $55 per month long-form and short-form from one session. Interview Show: adds Live, $75 per month guests, switching, multi-platform output. Media Brand: all except Monetize, $130 per month, multi-creator, multi-show operation. IP Business: all modules, $175 per month, FAST, sub-licensing, full rights ledger.
+
+REVENUE MODEL
+Three revenue streams per customer, not one.
+First: subscription, monthly recurring revenue, module-based. Second: storage and compute, usage-based billing metered per event via Lago. Third: FAST channel revenue share, CPM ad revenue from customer FAST channels, platform takes a percentage.
+
+The global FAST market reached $10.6 billion in 2025 and is projected at $12.23 billion in 2026, growing 21% year over year. A creator with a 500-hour archive can launch a monetized 24/7 FAST channel in under 72 hours of setup time. The platform enables that. The platform shares in the upside.
+
+Unit economics: infrastructure runs approximately $600, $950 per month for a production-ready multi-tenant platform. At $40 per month average revenue per user, break-even is 25 customers. At 100 customers, $4,000 per month in revenue against $950 in infrastructure cost.
+
+THE AFFORDABLE TECHNOLOGY STACK
+No high-priced broadcast solutions. Every layer uses open-source or commodity SaaS components that produce broadcast-grade results at startup cost.
+Storage (10TB): Backblaze B2,  $60 per month. Zero-download editing (5 users): LucidLink,  $40 per month. Transcoding: Serverless FFmpeg on AWS Lambda, $50–200 per month usage-based. Workflow orchestration: n8n self-hosted on EC2,  $30 per month. Live multistream: custom SRT relay plus FFmpeg, $150 per month. AI quality control: FFmpeg plus AWS Rekognition, $20–50 per month. Rights ledger: PostgreSQL RDS append-only, $50 per month. Usage billing: Lago self-hosted, $20 per month. Observability: OpenTelemetry plus Grafana Cloud, $50 per month. CDN delivery: Cloudflare Stream plus R2, $100–300 per month usage-based. Total: $600–950 per month.
+
+Backblaze B2: 11 nines of data durability. Free egress to Cloudflare. Object Lock prevents modification or deletion. Fraction of AWS S3 cost.
+
+LucidLink: mounts the archive as a virtual drive. Editors work directly in Premiere or DaVinci Resolve without downloading files. First frame under one second on a 4K timeline.
+
+Serverless FFmpeg: FFmpeg is free. AWS Lambda charges milliseconds of compute. A 1-hour 4K transcode costs under $0.50. Zero idle server cost. Loudness normalization to EBU R128 and ATSC A/85 standards runs automatically as a mandatory QC gate on every file before delivery.
+
+n8n: open-source workflow automation. 400+ pre-built connectors. Self-hostable. Priced per workflow execution, not per step. Handles the full orchestration layer for complex iterative content pipelines.
+PostgreSQL append-only rights ledger: application-level enforcement preventing UPDATE or DELETE on committed records. UUID primary keys. SHA-256 hashing where each record’s hash is stored in the next, tamper-evident chain without blockchain infrastructure overhead.
+
+Lago: MIT-licensed open-source engine. Metered billing, subscription management, invoice generation. Connected to Stripe for payment processing. Self-hosted at near-zero cost.
+
+Cloudflare Stream plus R2: enterprise CDN coverage across 300+ cities at commodity pricing. R2 storage has zero egress fees. Multi-CDN failover scoring runs every 30 seconds, sub-500ms reroute when a provider degrades.
+
+OpenTelemetry plus Grafana: full observability stack at near-zero cost. Glass-to-glass latency measurement from camera capture to viewer screen. Deploys at Phase 1, not Phase 5. Without it there is no performance baseline, no billing metering data, and no historical record to optimize against.
+
+QUALITY CONTROL: AUTOMATED
+Every output scanned automatically before delivery: black frames and frozen frames, lip-sync drift detectable to 15ms, visual artifacts from AI processing tools, loudness violations against ATSC A/85 and EBU R128 standards.
+
+Detection logic: black frame detected above 99% confidence, auto-correct and trigger encoder restart. Lip-sync drift detected above 90% confidence, auto-adjust audio delay. Visual blockiness detected above 95% confidence, switch to backup. Ambiguous result below 85% confidence, route to human review with specific flag.
+
+Every AI-generated output requires one human approval tap before it publishes. The creator stays in control. The platform handles execution.
+
+VERSIONING AND ROLLBACK
+When the pipeline generates nine platform variants from one story, each variant is a separate asset. If the AI produces a corrupt version, the question is: how fast can the last approved state be restored? Without versioning, the answer is re-run the entire pipeline, 45–90 minutes for long-form video. That failure mode destroys creator trust on day 30 of a production deployment.
+Three rollback operations are available. Single-variant rollback: revert one platform output to the previous version without affecting the other eight, execution time milliseconds. Full story rollback: revert all nine variants to their last approved state simultaneously, execution time milliseconds. Pipeline rollback: if a model update produces systematically bad output across multiple stories, identify all affected variants by model version and trigger selective regeneration using previously validated parameters.
+
+When QC confidence drops below 85%, the system flags the variant as pending review and keeps the prior approved version as the active delivery asset. The creator sees a review notification, not missing content.
+
+RIGHTS AND MONETIZATION LEDGER
+Every piece of content is intellectual property. Most creators have no systematic record of who licensed what, for how long, in which territory, and at what fee.
+The rights ledger tracks every asset across four dimensions: territory, duration, media type, and compensation. Every sub-license grant, ownership transfer, and usage event is recorded as an immutable transaction. Nobody modifies a committed record.
+Tables: rights_ledger tracks the master record of every asset’s rights status. transactions tracks every change in ownership or license. journal_entries tracks double-entry accounting where debits and credits sum to zero. licenses tracks territory, duration, format, and compensation per grant. usage_meter tracks API calls, compute usage, and delivery events.
+
+FAST channel integration: the playout system schedules assets from the archive in a rolling 24/7 playlist, inserts ad break markers at defined intervals, and delivers a live stream to FAST distributors including Pluto TV, Tubi, Samsung TV Plus, and Roku Channel. The rights ledger verifies distribution clearance for each asset before it enters the schedule.
+
+FIVE GAPS IN EVERY CUSTOM CREATOR STACK
+These are the problems this platform solves that no existing tool addresses completely.
+First: metadata contract violations. One system sends content type as one format, the next expects another. Assets stall silently. Fix: enforce a canonical metadata schema at ingest. Every component reads the same contract.
+Second: loudness normalization treated as optional. It is not. Non-compliant audio is rejected by every professional ingest system. The platform runs it automatically on every asset before delivery.
+Third: no versioning for AI-generated outputs. Without rollback, an AI pipeline is a demo, not a product.
+Fourth: single CDN dependency. One provider goes down, everything goes down. Multi-CDN failover with automated scoring is baseline infrastructure, not a premium feature.
+Fifth: observability deferred to later. Without OpenTelemetry deployed from day one, there is no baseline, no billing metering data, and no glass-to-glass measurement. It must deploy at Phase 1.
+
+BUILD SEQUENCE: 90 DAYS TO FIRST PAYING CUSTOMER
+Weeks 1–2, the core loop: Backblaze B2 bucket configured, n8n instance running, FFmpeg Lambda function operational, Cloudflare R2 and Stream delivery connected, one story input to one YouTube upload automated end-to-end. This is the proof of concept. One workflow. Under $100 to build and run.
+
+Weeks 3-4, the creator interface: web UI in Next.js, Story Block input and review screen, output approval interface, OAuth connections for YouTube, Spotify, and TikTok.
+
+Month 2, live streaming: SRT ingest endpoint on EC2 with FFmpeg, RTMP relay to all connected platforms, WebRTC guest links via Daily.co API, browser-based studio interface.
+Month 3, monetization: PostgreSQL rights ledger, Lago billing engine, Stripe payment processing, FAST channel playout via Amagi Cloudport starter tier.
+
+THE FIVE-PHASE ENGINEERING ROADMAP
+The customer experience is: subscribe, connect accounts, create, approve, publish. The roadmap is the internal engineering plan. Customers never see it.
+Three non-negotiable dependencies: OpenTelemetry deploys Phase 1, not Phase 5, no baseline means no billing metering data and no optimization record. MOS-to-REST migration requiring 6-12 weeks of integration work is a Phase 2 prerequisite, story-centric editorial tools cannot run on legacy MOS protocol. Lago billing activates after OTel metering is validated, never before.
+
+Phase 1, Foundation: storage and OTel baseline using Backblaze B2, LucidLink, and OpenTelemetry, gate is Object Lock and frame tagging from day one. 
+
+Phase 2, Ingest: accelerated upload and protocol migration using MASV, Signiant, and REST adapter,  gate is protocol migration complete before Phase 3. Phase 3, Editorial and Distribution: Story blocks and 9-platform delivery using n8n, Cloudflare Stream, and IMF packaging, gate is metering validated before billing activates. 
+
+Phase 4, Commercialization: rights ledger and billing using Lago, PostgreSQL, SSAI, and SCTE-35, gate is append-only SQL live with blockchain evaluated in Phase 5. 
+
+Phase 5, Scale and AI: AI QC, multi-CDN, and versioning using OTel dashboards, Grafana, and Rekognition, gate is versioning live before agentic AI layer expands.
+
+THE FOUNDING TEAM NEEDED
+Three people is the complete team to reach first paying customer.
+Full-stack engineer: Next.js front end, Node or Python back end, AWS infrastructure. DevOps and infrastructure engineer: n8n pipelines, FFmpeg, OpenTelemetry, containerized services. Product and domain: architecture decisions, creator relationships, commercial modeling.
+
+THE CREATORS THIS IS BUILT FOR
+Chris Williamson, Modern Wisdom, 3M+ YouTube subscribers, long-form interview format. Sky King, multi-platform, short-form and long-form hybrid operation. Raging Moditors, high-volume editing, multi-platform distribution. Ned Luke, actor and creator, cross-platform brand building. Medias Touch, professional media production operation. Adam Mockler, creator-entrepreneur, IP and licensing focus.
+
+Each one is running a content operation that touches 47 tools, loses 23 hours a week to workflow, and leaves FAST channel revenue, sub-licensing income, and territorial rights on the table because no tool has connected those dots at a price that makes sense.
+
+WHY NOW
+Three forces converge in 2026. First: SDVI Rally MCP server announced April 6, 2026 at NAB: AI agents can now query broadcast supply chains in real time and trigger automated workflows. The agentic infrastructure layer is production-ready. Second: FAST market acceleration: $10.6 billion in 2025, projected $12.23 billion in 2026, growing 21% year over year. 
+
+Creators have a new monetization channel and no tool built to access it at their price point. Third: creator tool fatigue at a breaking point, 47 tools, 23 hours per week lost. The market is ready for consolidation into one platform.
+
+The technology is production-stable. Every component is actively deployed in enterprise environments today. The market is open. The timing is now.
+
+THE SUMMARY ARGUMENT
+The creators running serious content operations today are each managing a fragmented stack that costs them hours, limits their revenue, and leaves their intellectual property unprotected. The broadcast industry solved this problem a decade ago with supply chain infrastructure that costs seven figures to build and operate. Nobody has brought that solution to the creator market at a price creators can afford.
+
+This platform does exactly that. Broadcast-grade infrastructure. SaaS pricing. Fully managed. No IT department required. The creator records. We handle the rest.
+
+THE ASK
+One conversation. No commitment.
+The ask is simple: pressure-test this architecture with someone who has operated content infrastructure at scale. You built systems at Vox that served millions of readers and viewers across dozens of properties. You know what a real content supply chain looks like. You know what it costs. You know what breaks.
+This is the version that every creator deserves access to, not just the ones with Vox’s budget.
+
+What does your calendar look like?
+Document compiled April 2026. All performance benchmarks reflect current production deployments. Technology recommendations reflect production-stable releases only.
